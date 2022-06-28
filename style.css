@@ -196,12 +196,26 @@ template.design {
     /* styling */
     border-radius: var(--design-radius);
     overflow: hidden;
+
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-all-image-container-container {
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-all-image-container {
+    display: flex;
 }
 
 .design-left img {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
 }
 
 .design-right {
@@ -402,6 +416,17 @@ template.design {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: var(--design-gap);
+}
+
+.design-single-image-container {
+    /* sizing */
+    width: 100%;
+    height: 100%;
+
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .design-single-image {
