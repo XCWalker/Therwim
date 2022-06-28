@@ -1,64 +1,198 @@
 [
    {
-      "uuid":"671d5fc9-bc96-4eac-8f26-2c2103ce16a9",
-      "title":"New XCWalker Logo",
-      "date":"2022-06-28T12:18:05.743Z",
-      "shortDesc":"The new XCWalker Logo",
-      "thumbnailURL":"./Downloads/XCWalker & Walker Logo Merge.svg",
-      "description":"",
-      "images":[
-         
-      ],
-      "downloads":[
+      "uuid": "671d5fc9-bc96-4eac-8f26-2c2103ce16a9",
+      "title": "New XCWalker Logo",
+      "date": "2022-06-28T12:18:05.743Z",
+      "shortDesc": "The new XCWalker Logo",
+      "thumbnailURL": "./Downloads/XCWalker & Walker Logo Merge.svg",
+      "description": "",
+      "images": [],
+      "downloads": [
          {
-            "type":"SVG",
-            "url":"./Downloads/XCWalker & Walker Logo Merge.svg"
+            "type": "SVG",
+            "url": "./Downloads/XCWalker & Walker Logo Merge.svg"
          }
       ]
    },
    {
-      "uuid":"d01979df-9ca7-47e0-b88e-ce357819369d",
-      "title":"S.H.I.E.L.D. Credit Card V.1",
-      "date":"2022-06-28T12:18:05.743Z",
-      "shortDesc":"The first generation design of the SHIELD credit card.",
-      "thumbnailURL":"./Downloads/SHIELD Creadit Card V.1/SHIELD - Credit Card - Mockup 4.png",
-      "description":"Strategic Homeland Intervention Enforcement and Logistic Division is from the Marvel Cinematic Universe.\nThis is a design concept for a debit card featuring a Greyscale front with a blue pattern background featuring a custom logo.\nMade from merging the S.H.I.E.L.D. strike patch and the FBI logo.",
-      "images":[
+      "uuid": "d01979df-9ca7-47e0-b88e-ce357819369d",
+      "title": "S.H.I.E.L.D. Credit Card V.1",
+      "date": "2022-06-28T12:18:05.743Z",
+      "shortDesc": "The first generation design of the SHIELD credit card.",
+      "thumbnailURL": "./Downloads/SHIELD Creadit Card V.1/SHIELD - Credit Card - Mockup 4.png",
+      "description": "Strategic Homeland Intervention Enforcement and Logistic Division is from the Marvel Cinematic Universe.\nThis is a design concept for a debit card featuring a Greyscale front with a blue pattern background featuring a custom logo.\nMade from merging the S.H.I.E.L.D. strike patch and the FBI logo.",
+      "images": [
          {
-            "URL":"./Downloads/SHIELD Creadit Card V.1/SHIELD - Credit Card - Card Only Mockup 1.png"
+            "URL": "./Downloads/SHIELD Creadit Card V.1/SHIELD - Credit Card - Card Only Mockup 1.png"
          },
          {
-            "URL":"./Downloads/SHIELD Creadit Card V.1/SHIELD - Credit Card - Mockup 3.png"
+            "URL": "./Downloads/SHIELD Creadit Card V.1/SHIELD - Credit Card - Mockup 3.png"
          },
          {
-            "URL":"./Downloads/SHIELD Creadit Card V.1/SHIELD - Credit Card - Mockup 5.png"
+            "URL": "./Downloads/SHIELD Creadit Card V.1/SHIELD - Credit Card - Mockup 5.png"
          },
          {
-            "URL":"./Downloads/SHIELD Creadit Card V.1/Card - Back.png"
+            "URL": "./Downloads/SHIELD Creadit Card V.1/Card - Back.png"
          },
          {
-            "URL":"./Downloads/SHIELD Creadit Card V.1/Card - Front.png"
+            "URL": "./Downloads/SHIELD Creadit Card V.1/Card - Front.png"
          },
          {
-            "URL":"./Downloads/SHIELD Creadit Card V.1/Card - Emboss.png"
+            "URL": "./Downloads/SHIELD Creadit Card V.1/Card - Emboss.png"
          }
       ],
-      "downloads":[
+      "downloads": [
          {
-            "type":"JPG",
-            "url":"https://drive.google.com/drive/folders/1h_--rISiLTHPOiiLovyjUTNqntwKWpGu?usp=sharing"
-         },         
-         {
-            "type":"PNG",
-            "url":"https://drive.google.com/drive/folders/19wchzbnKj_5NQuwN52FBSAR9qbbSx9VZ?usp=sharing"
+            "type": "JPG",
+            "url": "https://drive.google.com/drive/folders/1h_--rISiLTHPOiiLovyjUTNqntwKWpGu?usp=sharing"
          },
          {
-            "type":"PSD",
-            "url":"https://drive.google.com/drive/folders/1cVek8f6umH2vt67ABZZgb-ipBIISlFui?usp=sharing"
+            "type": "PNG",
+            "url": "https://drive.google.com/drive/folders/19wchzbnKj_5NQuwN52FBSAR9qbbSx9VZ?usp=sharing"
          },
          {
-            "type":"ZIP",
-            "url":"https://drive.google.com/file/d/1zayoJoqNOtTDKdRdNANwNlr2rhkuPwC-/view?usp=sharing"
+            "type": "PSD",
+            "url": "https://drive.google.com/drive/folders/1cVek8f6umH2vt67ABZZgb-ipBIISlFui?usp=sharing"
+         },
+         {
+            "type": "ZIP",
+            "url": "https://drive.google.com/file/d/1zayoJoqNOtTDKdRdNANwNlr2rhkuPwC-/view?usp=sharing"
+         }
+      ]
+   },
+   {
+      "uuid": "ea25a876-29f4-44e0-a585-ad97deb24026",
+      "title": "Walker Defense Logo",
+      "date": "2022-06-28T12:18:05.743Z",
+      "shortDesc": "The unified style logo for Walker Defense.",
+      "thumbnailURL": "./Downloads/Walker Defense/Unified Style - V.2 [STACKED] (Black).svg",
+      "description": "The Walker Defense Logo./nBased on the unified style created with the latest generation of Walker Corporate Logos./nThe font in montserrat (The same as used on this site).",
+      "images": [
+         {
+            "URL": "./Downloads/Walker Defense/Unified Style - V.2 [STACKED] (White).svg"
+         }
+      ],
+      "downloads": [
+         {
+            "type": "SVG (White)",
+            "url": "./Downloads/Walker Defense/Unified Style - V.2 [STACKED] (White).svg"
+         },
+         {
+            "type": "SVG (Black)",
+            "url": "./Downloads/Walker Defense/Unified Style - V.2 [STACKED] (Black).svg"
+         }
+      ]
+   },
+   {
+      "uuid": "15df32b2-931f-44f9-bfc6-28ea39fe86ba",
+      "title": "Walker Defense | Deep Space Corps | Shuttle Seal",
+      "date": "2022-06-28T12:18:05.743Z",
+      "shortDesc": "The seal of the Deep Space Corps.",
+      "thumbnailURL": "./Downloads/Walker Defense/Deep Space Corps/Shuttle Seal/Shuttle Seal - V.1.svg",
+      "description": "The Deep Space Corps Logo./nBased on a logo seen in Agents of Shield./nThe font in montserrat (The same as used on this site)./nThe DSC was formed for Space Engineers.",
+      "images": [],
+      "downloads": [
+         {
+            "type": "SVG",
+            "url": "./Downloads/Walker Defense/Deep Space Corps/Shuttle Seal/Shuttle Seal - V.1.svg"
+         },
+         {
+            "type": "PNG",
+            "url": "./Downloads/Walker Defense/Deep Space Corps/Shuttle Seal/Shuttle Seal - V.1.png"
+         }
+      ]
+   },
+   {
+      "uuid": "7d48ab2a-b97f-4010-8927-25cdacc47e9e",
+      "title": "Walker Defense | Deep Space Corps | Ship Seals",
+      "date": "2022-06-28T12:18:05.743Z",
+      "shortDesc": "The seal of the Deep Space Corps Defense Startships.",
+      "thumbnailURL": "./Downloads/Walker Defense/Deep Space Corps/DSS Defender/DSS Defender - Seal.svg",
+      "description": "The Deep Space Corps Ship Seals./nThe Seal remains the same for each ship, just changing the Name and colour theme./nThe font in montserrat (The same as used on this site).",
+      "images": [
+         {
+            "url": "./Downloads/Walker Defense/Deep Space Corps/DSS Vendetta/DSS Vendetta - Seal.svg"
+         },
+         {
+            "url": "./Downloads/Walker Defense/Deep Space Corps/DSS Phoenix/DSS Phoenix - Seal.svg"
+         }
+      ],
+      "downloads": [
+         {
+            "type": "SVG (Defender)",
+            "url": "./Downloads/Walker Defense/Deep Space Corps/DSS Defender/DSS Defender - Seal.svg"
+         },
+         {
+            "type": "SVG (Vendetta)",
+            "url": "./Downloads/Walker Defense/Deep Space Corps/DSS Vendetta/DSS Vendetta - Seal.svg"
+         },
+         {
+            "type": "SVG (Phoenix)",
+            "url": "./Downloads/Walker Defense/Deep Space Corps/DSS Phoenix/DSS Phoenix - Seal.svg"
+         }
+      ]
+   },
+   {
+      "uuid": "a4c0920e-4d3f-4a07-bae5-50cb73f8da42",
+      "title": "Walker Defense | Deep Space Corps | Ship Logos",
+      "date": "2022-06-28T12:18:05.743Z",
+      "shortDesc": "The seal of the Deep Space Corps Defense Startships.",
+      "thumbnailURL": "./Downloads/Walker Defense/Deep Space Corps/DSS Defender/DSS Defender - Logo.svg",
+      "description": "The Deep Space Corps Ship Logos./nThe logo remains the same for each ship, just changing the Name./nThe font in montserrat (The same as used on this site).",
+      "images": [
+         {
+            "url": "./Downloads/Walker Defense/Deep Space Corps/DSS Vendetta/DSS Vendetta - Logo.svg"
+         },
+         {
+            "url": "./Downloads/Walker Defense/Deep Space Corps/DSS Phoenix/DSS Phoenix - Logo.svg"
+         }
+      ],
+      "downloads": [
+         {
+            "type": "SVG (Defender)",
+            "url": "./Downloads/Walker Defense/Deep Space Corps/DSS Defender/DSS Defender - Logo.svg"
+         },
+         {
+            "type": "SVG (Vendetta)",
+            "url": "./Downloads/Walker Defense/Deep Space Corps/DSS Vendetta/DSS Vendetta - Logo.svg"
+         },
+         {
+            "type": "SVG (Phoenix)",
+            "url": "./Downloads/Walker Defense/Deep Space Corps/DSS Phoenix/DSS Phoenix - Logo.svg"
+         }
+      ]
+   },
+   {
+      "uuid": "d855a929-0178-43a3-a774-8d6ec92fbd5f",
+      "title": "Walker Corporate | Stacked Logo",
+      "date": "2022-06-28T12:18:05.743Z",
+      "shortDesc": "The latest logo of Walker Corporate.",
+      "thumbnailURL": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (Black).svg",
+      "description": "The Deep Space Corps Ship Logos./nThe logo remains the same for each ship, just changing the Name./nThe font in montserrat (The same as used on this site).",
+      "images": [
+         {
+            "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (White (OBJ)).svg"
+         },
+         {
+            "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (White).svg"
+         }
+      ],
+      "downloads": [
+         {
+            "type": "SVG (White - OBJ)",
+            "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (White (OBJ)).svg"
+         },
+         {
+            "type": "SVG (White)",
+            "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (White).svg"
+         },
+         {
+            "type": "SVG (Black)",
+            "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (Black).svg"
+         },
+         {
+            "type": "PNG (White)",
+            "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (White).png"
          }
       ]
    }

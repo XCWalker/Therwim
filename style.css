@@ -213,10 +213,12 @@ template.design {
 .design-all-image-container {
     display: flex;
     width: 100%;
+    height: 100%;
 }
 
 .design-left img {
     width: 100%;
+    object-fit: contain;
 }
 
 .design-right {
@@ -321,8 +323,28 @@ template.design {
 
     /* grid */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr));
     gap: var(--design-gap);
+}
+
+@media only screen and (max-width: 700px) {
+    .design-single-top {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+
+    .design {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .design-single-top h1,
+    .design-single-top h2,
+    .design-single-top p,
+    .design-single-top-left-bottom {
+        text-align: center;
+        justify-content: center;
+    }
 }
 
 .design-single-top-left {

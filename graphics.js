@@ -3,7 +3,7 @@ const designContainer = document.querySelector("[data-design-all-container]");
 
 let designs = []
 
-fetch("https://raw.githubusercontent.com/XCWalker/Therwim/main/graphics.json")
+fetch("./graphics.json")
     .then(res => res.json())
     .then(data => {
         sortedDesigns = data.sort(function (a, b) {
@@ -83,6 +83,7 @@ function singleDesign() {
         design.downloads.map(downloadItem => {
             const download = designSingleDownloadsTemplate.content.cloneNode(true).children[0];
             download.textContent = "[" + downloadItem.type + "] Download";
+            download.href = downloadItem.url;
 
             designSingleDownloadsContainer.append(download)
         })
@@ -95,8 +96,7 @@ function singleDesign() {
         design.images.map(imageItem => {
             const download = designSingleImagesTemplate.content.cloneNode(true).children[0];
             const downloadIMG = download.querySelector("[data-design-single-img]")
-            downloadIMG.src = imageItem.URL;
-            console.log(download.src);
+            downloadIMG.src = imageItem.url;
 
             designSingleImagesContainer.append(download)
         })
