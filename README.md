@@ -13,5 +13,6 @@ Future Features:
 - Lightbox View
 - Open In Seperate Tab
 - Auto Light/Dark Mode
-- Download Image
+- Download Image (For Each Format)
+- Format Tags
 - etc
