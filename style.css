@@ -398,19 +398,14 @@ template.design {
     border: var(--design-border-width) solid var(--tertiary-color);
     border-radius: var(--design-radius);
 
-    /* flex */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* grid */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .design-single-image {
     /* sizing */
     height: fit-content;
-
-    /* grid */
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
     /* styling */
     border-radius: var(--design-radius);
