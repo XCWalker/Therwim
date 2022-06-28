@@ -392,7 +392,11 @@ template.design {
     flex-wrap: wrap;
 }
 
-.design-single-image {}
+.design-single-image {
+    /* grid */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+}
 
 .design-single-image img {
     width: 100%;
