@@ -407,7 +407,10 @@ template.design {
 .design-single-image {
     /* sizing */
     width: 100%;
-    aspect-ratio: 16/9;
+    height: fit-content;
+
+    /* flex */
+    display: flex;
 
     /* styling */
     border-radius: var(--design-radius);
@@ -417,7 +420,6 @@ template.design {
 .design-single-image img {
     /* sizing */
     width: 100%;
-    height: 100%;
 
     /* image */
     object-fit: contain;
