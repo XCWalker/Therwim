@@ -121,7 +121,10 @@ body {
 
 .topbar {
     /* position */
-    position: absolute;
+    position: fixed;
+    top: var(--body-margin);
+    left: var(--body-margin);
+    right: var(--body-margin);
 
     /* sizing */
     height: var(--topbar-height);
