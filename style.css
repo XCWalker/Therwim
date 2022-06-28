@@ -391,3 +391,9 @@ template.design {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.design-single-image {}
+
+.design-single-image img {
+    width: 100%;
+}
