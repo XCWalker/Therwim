@@ -54,7 +54,7 @@ function singleDesign() {
         designSingleContainer.children[1].remove();
     }
 
-    var design = filteredDesigns[0].design;
+    var design = filteredDesigns.design;
 
     if (design == undefined) {
         return "No Design"
