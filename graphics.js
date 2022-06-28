@@ -39,7 +39,7 @@ window.addEventListener('popstate', function (e) {
         return
     }
 
-    filteredDesigns = designs.filter(design => design.uuid = hash);
+    filteredDesigns = designs.find(design => design.uuid = hash);
 
     this.location.hash = "";
 
