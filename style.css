@@ -410,6 +410,7 @@ template.design {
 
     /* styling */
     border-radius: var(--design-radius);
+    overflow: hidden;
 }
 
 .design-single-image img {
