@@ -311,6 +311,7 @@ template.design {
     display: flex;
     flex-direction: row;
     gap: var(--design-gap);
+    flex-wrap: wrap;
 }
 
 .design-single-download {
@@ -384,4 +385,9 @@ template.design {
     background-color: var(--secondary-color);
     border: var(--design-border-width) solid var(--tertiary-color);
     border-radius: var(--design-radius);
+
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }

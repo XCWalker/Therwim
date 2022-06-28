@@ -94,7 +94,9 @@ function singleDesign() {
     } else if (design.images.length != 0) {
         design.images.map(imageItem => {
             const download = designSingleImagesTemplate.content.cloneNode(true).children[0];
-            download.src = imageItem.URL;
+            const downloadIMG = download.querySelector("[data-design-single-img]")
+            downloadIMG.src = imageItem.URL;
+            console.log(download.src);
 
             designSingleImagesContainer.append(download)
         })
