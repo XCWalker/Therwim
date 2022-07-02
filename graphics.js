@@ -99,10 +99,10 @@ function singleDesign() {
     } else if (design.images.length != 0) {
         design.images.map(imageItem => {
             const download = designSingleImagesTemplate.content.cloneNode(true).children[0];
-            const downloadIMG = download.querySelector("[data-design-single-img]")
-            downloadIMG.src = imageItem.url;
+            const downloadIMG = download.querySelector("[data-design-single-img]");
+            downloadIMG.src = imageItem.URL;
 
-            designSingleImagesContainer.append(download)
+            designSingleImagesContainer.append(download);
         })
     }
 
