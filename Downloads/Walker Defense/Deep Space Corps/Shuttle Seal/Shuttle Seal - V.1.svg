@@ -7,7 +7,7 @@
    viewBox="0 0 135.46667 135.46667"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
    sodipodi:docname="Shuttle Seal - V.1.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,11 +23,11 @@
      inkscape:pagecheckerboard="1"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="1.0758519"
-     inkscape:cx="309.9869"
-     inkscape:cy="228.19126"
+     inkscape:zoom="3.0429687"
+     inkscape:cx="325.01156"
+     inkscape:cy="262.24391"
      inkscape:window-width="1920"
-     inkscape:window-height="1137"
+     inkscape:window-height="1009"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -324,19 +324,19 @@
        d="M 117.05581,67.733337 A 49.322472,49.322472 0 0 1 67.733337,117.05581 49.322472,49.322472 0 0 1 18.410866,67.733337 49.322472,49.322472 0 0 1 67.733337,18.410866 49.322472,49.322472 0 0 1 117.05581,67.733337 Z"
        id="path4273" />
     <path
-       id="path2384-5"
-       style="fill:#ae1f25;fill-opacity:1;stroke:#ae1f25;stroke-width:4.7625;stroke-linecap:square;stroke-miterlimit:5;stroke-dasharray:none;stroke-dashoffset:9.44882;stroke-opacity:1"
-       d="m 58.374759,114.23647 c -5.602238,-2.37479 -13.793896,-5.74962 -13.793896,-5.74962 11.140969,-2.98521 16.044144,-14.87474 16.044144,-27.081918 0,12.372402 1.725784,25.944848 -2.250248,32.831538 z"
-       sodipodi:nodetypes="cccc" />
+       id="path1195"
+       style="color:#000000;fill:#ae1f25;stroke-width:18;stroke-linecap:square;stroke-miterlimit:5;stroke-dashoffset:9.44882;-inkscape-stroke:none"
+       d="M 220.13477 307.66992 C 220.13477 329.53359 215.66372 350.94412 206.67773 367.66211 C 197.69175 384.38008 184.6533 396.38425 166.16602 401.33789 L 140.47656 408.21875 L 165.06641 418.35352 C 165.06641 418.35352 196.02304 431.10783 217.11523 440.04883 L 224.44727 443.15039 L 228.42578 436.26172 C 237.50154 420.54206 239.25999 400.03695 239.51367 377.5918 C 239.76735 355.14666 238.13281 330.63235 238.13281 307.66992 L 220.13477 307.66992 z "
+       transform="scale(0.26458334)" />
     <path
        id="path4637"
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44882;stroke-opacity:1"
        d="M 27.176216,39.683886 A 49.322473,49.322473 0 0 0 18.410866,67.733337 49.322473,49.322473 0 0 0 27.176735,95.78279 29.38879,29.38879 0 0 0 47.799765,67.733337 29.38879,29.38879 0 0 0 27.176216,39.683886 Z" />
     <path
-       id="path2384-5-8"
-       style="fill:#ae1f25;fill-opacity:1;stroke:#ae1f25;stroke-width:4.7625;stroke-linecap:square;stroke-miterlimit:5;stroke-dasharray:none;stroke-dashoffset:9.44882;stroke-opacity:1"
-       d="m 76.87822,114.23647 c 5.602238,-2.37479 13.793896,-5.74962 13.793896,-5.74962 -11.140969,-2.98521 -16.044144,-14.87474 -16.044144,-27.081918 0,12.372402 -1.725784,25.944848 2.250248,32.831538 z"
-       sodipodi:nodetypes="cccc" />
+       id="path1204"
+       style="color:#000000;fill:#ae1f25;stroke-width:18;stroke-linecap:square;stroke-miterlimit:5;stroke-dashoffset:9.44882;-inkscape-stroke:none"
+       d="M 273.05664 307.66992 C 273.05664 330.63235 271.4221 355.14666 271.67578 377.5918 C 271.92946 400.03695 273.69572 420.54206 282.77148 436.26172 L 286.75 443.15039 L 294.07227 440.04883 C 315.16446 431.10783 346.12891 418.35352 346.12891 418.35352 L 370.71875 408.21875 L 345.0293 401.33789 C 326.54201 396.38425 313.50357 384.38008 304.51758 367.66211 C 295.53159 350.94412 291.06055 329.53359 291.06055 307.66992 L 273.05664 307.66992 z "
+       transform="scale(0.26458334)" />
     <path
        id="path4637-0"
        style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:9.44882;stroke-opacity:1"
