@@ -141,6 +141,7 @@ body {
 .apps {
     /* sizing */
     padding: var(--topbar-padding);
+    max-width: calc(100vw - var(--topbar-padding));
 
     /* styling */
     background-color: var(--secondary-color);
