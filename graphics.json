@@ -167,28 +167,21 @@
       "title": "Walker Corporate | Stacked Logo",
       "date": "2022-06-28T12:18:05.743Z",
       "shortDesc": "The latest logo of Walker Corporate.",
-      "thumbnailURL": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (Black).svg",
+      "thumbnailURL": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (Black (OBJ)).svg",
       "description": "The Deep Space Corps Ship Logos./nThe logo remains the same for each ship, just changing the Name./nThe font in montserrat (The same as used on this site).",
       "images": [
          {
             "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (White (OBJ)).svg"
-         },
-         {
-            "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (White).svg"
          }
       ],
       "downloads": [
          {
-            "type": "SVG (White - OBJ)",
+            "type": "SVG (White)",
             "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (White (OBJ)).svg"
          },
          {
-            "type": "SVG (White)",
-            "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (White).svg"
-         },
-         {
             "type": "SVG (Black)",
-            "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (Black).svg"
+            "url": "./Downloads/Walker Corporate/Unified Style/Walker Corporate - WC Expanded Logo - V.3 (Black (OBJ)).svg"
          },
          {
             "type": "PNG (White)",
