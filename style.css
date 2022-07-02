@@ -62,8 +62,7 @@ body {
 
     /* sizing */
     height: var(--topbar-height);
-    width: -moz-available;
-    width: -webkit-fill-available;
+    width: calc(100vw - (var(--body-margin) * 2)) - (var(--topbar-padding) * 2);
     padding: var(--topbar-padding);
 
     /* styling */
