@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ----Defaults---- -->
     <!-- Styling -->
-    <link defer rel="stylesheet"
-        href="https://github.com/XCWalker/Default/blob/0413b2a7539fbce0a364d7d24a150932442e522c/style.css">
+    <link rel="preconnect" href="https://raw.githubusercontent.com">
+    <link rel="stylesheet" href="https://xcwalker.github.io/Default/style.css">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,17 +16,24 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
-    <!-- ----Project Code---- -->    
+    <!-- ----Project Code---- -->
     <link rel="stylesheet" href="style.css">
     <script src="graphics.js" defer></script>
+    <script src="appDraw.js" defer></script>
+
+    <!-- ----SEO---- -->
+    <link rel="icon" type="image/svg+xml" href="https://raw.githubusercontent.com/XCWalker/Default/main/iconSVG/Therwim.svg">
+    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/XCWalker/Default/main/iconPNG/Therwim.png">
     <title>Therwim | Graphical Designs | XCWalker</title>
 </head>
 
-<body class="all">
+<body>
     <div id="topbar">
         <div class="topbar">
-            <svg width="279.57" height="63.13" version="1.1" viewBox="0 0 73.969 16.703"
-                xmlns="http://www.w3.org/2000/svg">
+            <div class="topbar-left">
+
+            </div>
+            <svg version="1.1" viewBox="0 0 73.969 16.703" xmlns="http://www.w3.org/2000/svg">
                 <g transform="translate(152.86 -16.644)">
                     <path transform="matrix(.26458 0 0 .26458 -237.26 51.943)"
                         d="m598.58-133.41c-23.635 0-60.166 1.4941-97.859 7.7383h3.6816v5.1602c2.0748-0.49488 4.1426-0.97991 6.1797-1.4375v-3.7228h10.002v1.5938c44.906-9.105 77.996-9.332 77.996-9.332zm-104.18 8.8301c-11.967 2.1492-23.978 4.7942-35.676 8.0391l-3.582 10.809c1.5854-0.58154 3.1697-1.1653 4.75-1.7226l-1.1406-2.1191 0.89063-0.68555 0.12109-0.0918c1e-3 -1e-3 2e-3 -3e-3 4e-3 -4e-3 0.40577-0.31141 0.83333-0.59814 1.2715-0.87109 0.0392-0.0244 0.0739-0.054 0.11328-0.0781 0.18122-0.11076 0.3779-0.20232 0.56446-0.30664 0.31197-0.17461 0.61862-0.3549 0.94531-0.51172 0.5182-0.24839 1.0552-0.47575 1.6094-0.67969 2e-3 -7e-4 4e-3 -1e-3 6e-3 -2e-3 0.024-9e-3 0.0502-0.0147 0.0742-0.0234 0.53184-0.19345 1.0772-0.37052 1.6406-0.52344 2e-3 0 3e-3 -2e-3 4e-3 -2e-3 2.3703-0.67 4.8216-1.0039 7.3379-1.0039 1.0607 0 2.0684 0.0714 3.0352 0.19727 0.50185 0.0632 0.96124 0.18256 1.4375 0.27929 0.36934 0.0763 0.76301 0.12083 1.1172 0.2168 5.2283-1.5702 10.396-3.0193 15.477-4.3496v-6.1562zm-46.934 11.396c-3.3439 1.0644-6.6587 2.1706-9.918 3.3457l3.2051 9.7109c0.907-0.3745 1.814-0.7707 2.7207-1.1367zm-18.842 6.7734c-0.12921 0.0524-0.25758 0.1055-0.38672 0.1582l-4.668 13.742c2.7998-1.3307 5.6039-2.6178 8.4121-3.8633zm-11.939 5.252c-0.8524 0.40803-1.69 0.82989-2.5312 1.248l1.0332 3.1641zm-11.568 6.0488c-3.1837 1.946-6.2674 3.6843-9.3008 5.3047l1.1484 1.0938-0.93164 1.0781c-1.9782 2.3012-4.4195 4.0731-7.2695 5.2773-2.853 1.2055-6.0153 1.7949-9.4355 1.7949-1.2241 0-2.4123-0.10212-3.5801-0.25781-17.619 6.3718-33.814 8.3533-52.068 10.51 32.111 0 55.955 1.3468 84.822-14.592z">
@@ -36,6 +43,29 @@
                         stroke-width="2.3333"></path>
                 </g>
             </svg>
+            <div class="topbar-right">
+                <a class="topbar-button" onclick="showAppDraw()">
+                    <svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m0 4h4v-4h-4zm6 12h4v-4h-4zm-6 0h4v-4h-4zm0-6h4v-4h-4zm6 0h4v-4h-4zm6-10v4h4v-4zm-6 4h4v-4h-4zm6 6h4v-4h-4zm0 6h4v-4h-4z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="app-draw" class="">
+        <div class="apps" data-app-container>
+            <template data-app-template>
+                <a href="" class="app">
+                    <img data-app-icon>
+                    <div>
+                        <h1 data-app-title></h1>
+                        <h2 data-app-hover-title></h2>
+                        <h1 class="sizing" data-app-title-sizing></h1>
+                        <h2 class="sizing" data-app-hover-title-sizing></h2>
+                    </div>
+                </a>
+            </template>
         </div>
     </div>
     <div id="design-single" data-design-single-container>

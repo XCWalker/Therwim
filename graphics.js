@@ -50,6 +50,10 @@ const designSingleTemplate = document.querySelector("[data-design-single-templat
 const designSingleContainer = document.querySelector("[data-design-single-container]");
 
 function singleDesign() {
+    if (!designSingleContainer.classList.contains('visible')) {
+        designSingleContainer.classList.add('visible');
+    }
+
     if (designSingleContainer.children.length == 2) {
         designSingleContainer.children[1].remove();
     }

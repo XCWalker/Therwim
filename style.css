@@ -1,4 +1,14 @@
 /** Variables **/
+html {
+
+    /* Design */
+    --design-radius: 8px;
+    --design-padding: 8px;
+    --design-border-width: 2px;
+    --design-gap: 8px;
+    --design-button-height: 44px;
+}
+
 #brand-logo {
     color: var(--brand-color);
     font-weight: bold;
@@ -65,13 +75,168 @@ body {
 
     /* flex */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: var(--topbar-gap);
 }
 
-.topbar svg {
+.topbar * {
+    /* sizing */
     height: 100%;
+    min-width: 32px;
+
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--topbar-gap);
+}
+
+.topbar a {
+    /* sizing */
+    display: block;
+    aspect-ratio: 1/1;
+    padding: calc(var(--topbar-padding) / 1.5);
+
+    /* styling */
+    border-radius: var(--topbar-radius);
+    color: var(--primary-text-color);
+    fill: currentColor;
+
+    /* flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar a:hover,
+.topbar a:focus {
+    background-color: var(--tertiary-color);
+    outline: var(--topbar-border-width) solid var(--tertiary-color);
+}
+
+.topbar a:active {
+    background-color: transparent;
+    color: var(--tertiary-color);
+    outline: var(--topbar-border-width) solid var(--tertiary-color);
+}
+
+/* App Draw */
+#app-draw {
+    /* position */
+    position: fixed;
+    top: calc(var(--topbar-height) + (var(--body-margin) * 2));
+    right: var(--body-margin);
+
+    /* animation & hiding */
+    transform: translateX(200%);
+    transition: transform 1s;
+}
+
+#app-draw.visible {
+    transform: translateX(0%);
+}
+
+.apps {
+    /* sizing */
+    padding: var(--topbar-padding);
+
+    /* styling */
+    background-color: var(--secondary-color);
+    border: var(--topbar-border-width) solid var(--tertiary-color);
+    border-radius: var(--topbar-radius);
+
+    /* flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--topbar-gap);
+}
+
+.app {
+    /* sizing */
+    padding: 4px;
+    height: calc(var(--topbar-height) / 1.5);
+    width: 100%;
+
+    /* flex */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--topbar-gap);
+
+    /* text styling */
+    color: var(--primary-text-color);
+    fill: currentColor;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 1;
+
+    /* styling */
+    border-radius: var(--topbar-radius);
+}
+
+.app:hover,
+.app:focus {
+    background-color: var(--tertiary-color);
+    outline: var(--topbar-border-width) solid var(--tertiary-color);
+}
+
+.app:active {
+    background-color: transparent;
+    color: var(--tertiary-color);
+    outline: var(--topbar-border-width) solid var(--tertiary-color);
+}
+
+.app * {
+    height: 100%;
+    position: relative;
+}
+
+.app div * {
+    /* text */
+    font-size: inherit;
+    line-height: inherit;
+
+    /* position */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    /* sizing */
+    height: fit-content;
+
+    /* transition */
+    transition: opacity 0.5s;
+}
+
+.app div .sizing {
+    /* text */
+    font-size: inherit;
+    line-height: 0;
+
+    /* position */
+    position: relative;
+
+    /* sizing */
+    height: fit-content;
+}
+
+.app h2 {
+    opacity: 0;
+}
+
+.app:hover h1 {
+    opacity: 0;
+}
+
+.app:hover h2 {
+    opacity: 1;
+    content: attr(data-hover-txt);
 }
 
 /** Design All **/
@@ -93,6 +258,7 @@ body {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
 }
+
 @media only screen and (max-width: 400px) {
     .designs-container {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
@@ -229,6 +395,13 @@ template.design {
 
 /** Design Single **/
 #design-single {
+    display: none;
+}
+
+#design-single.visible {
+    /* display */
+    display: block;
+
     /* sizing */
     width: 100%;
     height: fit-content;
@@ -265,6 +438,7 @@ template.design {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     }
 }
+
 @media only screen and (max-width: 400px) {
     .design-single-top {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
@@ -276,6 +450,7 @@ template.design {
 }
 
 @media only screen and (max-width: 920px) {
+
     .design-single-top h1,
     .design-single-top h2,
     .design-single-top p,
