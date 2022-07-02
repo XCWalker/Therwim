@@ -100,7 +100,7 @@ function singleDesign() {
         design.images.map(imageItem => {
             const download = designSingleImagesTemplate.content.cloneNode(true).children[0];
             const downloadIMG = download.querySelector("[data-design-single-img]");
-            downloadIMG.src = imageItem.URL;
+            downloadIMG.src = imageItem.url;
 
             designSingleImagesContainer.append(download);
         })
