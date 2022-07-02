@@ -285,9 +285,6 @@ template.design {
 }
 
 .design-left {
-    /* sizing */
-    aspect-ratio: 16 / 9;
-
     /* styling */
     border-radius: var(--design-radius);
     overflow: hidden;
