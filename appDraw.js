@@ -37,7 +37,8 @@ fetch("https://raw.githubusercontent.com/XCWalker/Default/main/app-switcher.json
             appContainer.append(card);
 
             if (app.title == "Therwim") {
-                document.title = app.title + " | " + app.hoverTXT + " | XCWalker"
+                document.title = app.title + " | " + app.hoverTXT + " | XCWalker"                
+                document.querySelector('meta[name="description"]').setAttribute("content", app.description);
             }
 
             return { app }
